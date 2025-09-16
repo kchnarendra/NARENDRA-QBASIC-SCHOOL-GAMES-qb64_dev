@@ -1,0 +1,83 @@
+*__SINGLE_N=0;
+*__SINGLE_K=0;
+if (__ARRAY_DOUBLE_NAR[2]&1){
+if (__ARRAY_DOUBLE_NAR[2]&2){
+memset((void*)(__ARRAY_DOUBLE_NAR[0]),0,__ARRAY_DOUBLE_NAR[5]*8);
+}else{
+if (__ARRAY_DOUBLE_NAR[2]&4){
+cmem_dynamic_free((uint8*)(__ARRAY_DOUBLE_NAR[0]));
+}else{
+free((void*)(__ARRAY_DOUBLE_NAR[0]));
+}
+__ARRAY_DOUBLE_NAR[2]^=1;
+__ARRAY_DOUBLE_NAR[4]=2147483647;
+__ARRAY_DOUBLE_NAR[5]=0;
+__ARRAY_DOUBLE_NAR[6]=0;
+__ARRAY_DOUBLE_NAR[0]=(ptrszint)nothingvalue;
+}
+}
+if (__ARRAY_DOUBLE_NKC[2]&1){
+if (__ARRAY_DOUBLE_NKC[2]&2){
+memset((void*)(__ARRAY_DOUBLE_NKC[0]),0,__ARRAY_DOUBLE_NKC[5]*8);
+}else{
+if (__ARRAY_DOUBLE_NKC[2]&4){
+cmem_dynamic_free((uint8*)(__ARRAY_DOUBLE_NKC[0]));
+}else{
+free((void*)(__ARRAY_DOUBLE_NKC[0]));
+}
+__ARRAY_DOUBLE_NKC[2]^=1;
+__ARRAY_DOUBLE_NKC[4]=2147483647;
+__ARRAY_DOUBLE_NKC[5]=0;
+__ARRAY_DOUBLE_NKC[6]=0;
+__ARRAY_DOUBLE_NKC[0]=(ptrszint)nothingvalue;
+}
+}
+if (__ARRAY_DOUBLE_ONAR[2]&1){
+if (__ARRAY_DOUBLE_ONAR[2]&2){
+memset((void*)(__ARRAY_DOUBLE_ONAR[0]),0,__ARRAY_DOUBLE_ONAR[5]*8);
+}else{
+if (__ARRAY_DOUBLE_ONAR[2]&4){
+cmem_dynamic_free((uint8*)(__ARRAY_DOUBLE_ONAR[0]));
+}else{
+free((void*)(__ARRAY_DOUBLE_ONAR[0]));
+}
+__ARRAY_DOUBLE_ONAR[2]^=1;
+__ARRAY_DOUBLE_ONAR[4]=2147483647;
+__ARRAY_DOUBLE_ONAR[5]=0;
+__ARRAY_DOUBLE_ONAR[6]=0;
+__ARRAY_DOUBLE_ONAR[0]=(ptrszint)nothingvalue;
+}
+}
+if (__ARRAY_DOUBLE_ONKC[2]&1){
+if (__ARRAY_DOUBLE_ONKC[2]&2){
+memset((void*)(__ARRAY_DOUBLE_ONKC[0]),0,__ARRAY_DOUBLE_ONKC[5]*8);
+}else{
+if (__ARRAY_DOUBLE_ONKC[2]&4){
+cmem_dynamic_free((uint8*)(__ARRAY_DOUBLE_ONKC[0]));
+}else{
+free((void*)(__ARRAY_DOUBLE_ONKC[0]));
+}
+__ARRAY_DOUBLE_ONKC[2]^=1;
+__ARRAY_DOUBLE_ONKC[4]=2147483647;
+__ARRAY_DOUBLE_ONKC[5]=0;
+__ARRAY_DOUBLE_ONKC[6]=0;
+__ARRAY_DOUBLE_ONKC[0]=(ptrszint)nothingvalue;
+}
+}
+*__SINGLE_I=0;
+*__SINGLE_FF=0;
+*__SINGLE_A=0;
+*__SINGLE_B=0;
+*__SINGLE_J=0;
+*__SINGLE_C=0;
+*__SINGLE_MB=0;
+*__SINGLE_AX=0;
+*__SINGLE_QA=0;
+*__SINGLE_QB=0;
+*__SINGLE_RJ=0;
+*__SINGLE_V1=0;
+*__SINGLE_V2=0;
+*__SINGLE_DC=0;
+*__SINGLE_S=0;
+*__SINGLE_P1=0;
+*__SINGLE_P2=0;

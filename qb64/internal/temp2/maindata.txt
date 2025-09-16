@@ -1,0 +1,171 @@
+if(__SINGLE_K==NULL){
+__SINGLE_K=(float*)mem_static_malloc(4);
+*__SINGLE_K=0;
+}
+if(__SINGLE_I==NULL){
+__SINGLE_I=(float*)mem_static_malloc(4);
+*__SINGLE_I=0;
+}
+static double fornext_value2;
+static double fornext_finalvalue2;
+static double fornext_step2;
+static uint8 fornext_step_negative2;
+if (!__STRING_SD)__STRING_SD=qbs_new(0,0);
+if (!__STRING_QUES)__STRING_QUES=qbs_new(0,0);
+static double fornext_value10;
+static double fornext_finalvalue10;
+static double fornext_step10;
+static uint8 fornext_step_negative10;
+if(__SINGLE_AL==NULL){
+__SINGLE_AL=(float*)mem_static_malloc(4);
+*__SINGLE_AL=0;
+}
+if(__SINGLE_QW==NULL){
+__SINGLE_QW=(float*)mem_static_malloc(4);
+*__SINGLE_QW=0;
+}
+if (!__STRING_LEV)__STRING_LEV=qbs_new(0,0);
+if (!__STRING_ABL)__STRING_ABL=qbs_new(0,0);
+if(__SINGLE_AH==NULL){
+__SINGLE_AH=(float*)mem_static_malloc(4);
+*__SINGLE_AH=0;
+}
+static double fornext_value18;
+static double fornext_finalvalue18;
+static double fornext_step18;
+static uint8 fornext_step_negative18;
+if (!__STRING_NAM)__STRING_NAM=qbs_new(0,0);
+byte_element_struct *byte_element_19=NULL;
+if (!byte_element_19){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_19=(byte_element_struct*)(mem_static_pointer-12); else byte_element_19=(byte_element_struct*)mem_static_malloc(12);
+}
+if (!__STRING_AC)__STRING_AC=qbs_new(0,0);
+static double fornext_value23;
+static double fornext_finalvalue23;
+static double fornext_step23;
+static uint8 fornext_step_negative23;
+if (!__STRING_A)__STRING_A=qbs_new(0,0);
+if (!__STRING_B)__STRING_B=qbs_new(0,0);
+if (!__STRING_C)__STRING_C=qbs_new(0,0);
+if (!__STRING_D)__STRING_D=qbs_new(0,0);
+if (!__STRING_E)__STRING_E=qbs_new(0,0);
+if (!__STRING_F)__STRING_F=qbs_new(0,0);
+static double fornext_value27;
+static double fornext_finalvalue27;
+static double fornext_step27;
+static uint8 fornext_step_negative27;
+if(__SINGLE_AB==NULL){
+__SINGLE_AB=(float*)mem_static_malloc(4);
+*__SINGLE_AB=0;
+}
+if(__SINGLE_JK==NULL){
+__SINGLE_JK=(float*)mem_static_malloc(4);
+*__SINGLE_JK=0;
+}
+if (!__STRING_FG)__STRING_FG=qbs_new(0,0);
+if (!__STRING_AR)__STRING_AR=qbs_new(0,0);
+if(__SINGLE_BC==NULL){
+__SINGLE_BC=(float*)mem_static_malloc(4);
+*__SINGLE_BC=0;
+}
+if (!__STRING_FL)__STRING_FL=qbs_new(0,0);
+static double fornext_value35;
+static double fornext_finalvalue35;
+static double fornext_step35;
+static uint8 fornext_step_negative35;
+if (!__STRING_AWP)__STRING_AWP=qbs_new(0,0);
+if(__SINGLE_A==NULL){
+__SINGLE_A=(float*)mem_static_malloc(4);
+*__SINGLE_A=0;
+}
+static double fornext_value41;
+static double fornext_finalvalue41;
+static double fornext_step41;
+static uint8 fornext_step_negative41;
+if(__SINGLE_LM==NULL){
+__SINGLE_LM=(float*)mem_static_malloc(4);
+*__SINGLE_LM=0;
+}
+byte_element_struct *byte_element_44=NULL;
+if (!byte_element_44){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_44=(byte_element_struct*)(mem_static_pointer-12); else byte_element_44=(byte_element_struct*)mem_static_malloc(12);
+}
+if (!__STRING_SK)__STRING_SK=qbs_new(0,0);
+if(__SINGLE_GJ==NULL){
+__SINGLE_GJ=(float*)mem_static_malloc(4);
+*__SINGLE_GJ=0;
+}
+static double fornext_value56;
+static double fornext_finalvalue56;
+static double fornext_step56;
+static uint8 fornext_step_negative56;
+if(__SINGLE_PO==NULL){
+__SINGLE_PO=(float*)mem_static_malloc(4);
+*__SINGLE_PO=0;
+}
+if (!__STRING_CB)__STRING_CB=qbs_new(0,0);
+if (!__STRING_JK)__STRING_JK=qbs_new(0,0);
+if(__SINGLE_ER==NULL){
+__SINGLE_ER=(float*)mem_static_malloc(4);
+*__SINGLE_ER=0;
+}
+if(__SINGLE_O==NULL){
+__SINGLE_O=(float*)mem_static_malloc(4);
+*__SINGLE_O=0;
+}
+static double fornext_value71;
+static double fornext_finalvalue71;
+static double fornext_step71;
+static uint8 fornext_step_negative71;
+if (!__STRING_DLN)__STRING_DLN=qbs_new(0,0);
+if(__SINGLE_C==NULL){
+__SINGLE_C=(float*)mem_static_malloc(4);
+*__SINGLE_C=0;
+}
+if(__SINGLE_MKR==NULL){
+__SINGLE_MKR=(float*)mem_static_malloc(4);
+*__SINGLE_MKR=0;
+}
+if (!__STRING_MA)__STRING_MA=qbs_new(0,0);
+static double fornext_value86;
+static double fornext_finalvalue86;
+static double fornext_step86;
+static uint8 fornext_step_negative86;
+if (!__STRING_AB)__STRING_AB=qbs_new(0,0);
+if(__SINGLE_J==NULL){
+__SINGLE_J=(float*)mem_static_malloc(4);
+*__SINGLE_J=0;
+}
+static double fornext_value92;
+static double fornext_finalvalue92;
+static double fornext_step92;
+static uint8 fornext_step_negative92;
+static double fornext_value97;
+static double fornext_finalvalue97;
+static double fornext_step97;
+static uint8 fornext_step_negative97;
+if (!__STRING_MKR)__STRING_MKR=qbs_new(0,0);
+if(__SINGLE_L==NULL){
+__SINGLE_L=(float*)mem_static_malloc(4);
+*__SINGLE_L=0;
+}
+byte_element_struct *byte_element_101=NULL;
+if (!byte_element_101){
+if ((mem_static_pointer+=12)<mem_static_limit) byte_element_101=(byte_element_struct*)(mem_static_pointer-12); else byte_element_101=(byte_element_struct*)mem_static_malloc(12);
+}
+if (!__STRING_BC)__STRING_BC=qbs_new(0,0);
+if (!__STRING_G)__STRING_G=qbs_new(0,0);
+if(__SINGLE_N==NULL){
+__SINGLE_N=(float*)mem_static_malloc(4);
+*__SINGLE_N=0;
+}
+if (!__STRING_RND)__STRING_RND=qbs_new(0,0);
+if(__SINGLE_S==NULL){
+__SINGLE_S=(float*)mem_static_malloc(4);
+*__SINGLE_S=0;
+}
+static double fornext_value117;
+static double fornext_finalvalue117;
+static double fornext_step117;
+static uint8 fornext_step_negative117;
+if (!__STRING_RT)__STRING_RT=qbs_new(0,0);

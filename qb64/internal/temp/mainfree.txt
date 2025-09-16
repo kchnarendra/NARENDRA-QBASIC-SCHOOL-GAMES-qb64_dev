@@ -1,0 +1,32 @@
+if (__ARRAY_DOUBLE_NAR[2]&1){
+if (__ARRAY_DOUBLE_NAR[2]&4){
+cmem_dynamic_free((uint8*)(__ARRAY_DOUBLE_NAR[0]));
+}else{
+free((void*)(__ARRAY_DOUBLE_NAR[0]));
+}
+}
+free_mem_lock( (mem_lock*)((ptrszint*)__ARRAY_DOUBLE_NAR)[8] );
+if (__ARRAY_DOUBLE_NKC[2]&1){
+if (__ARRAY_DOUBLE_NKC[2]&4){
+cmem_dynamic_free((uint8*)(__ARRAY_DOUBLE_NKC[0]));
+}else{
+free((void*)(__ARRAY_DOUBLE_NKC[0]));
+}
+}
+free_mem_lock( (mem_lock*)((ptrszint*)__ARRAY_DOUBLE_NKC)[8] );
+if (__ARRAY_DOUBLE_ONAR[2]&1){
+if (__ARRAY_DOUBLE_ONAR[2]&4){
+cmem_dynamic_free((uint8*)(__ARRAY_DOUBLE_ONAR[0]));
+}else{
+free((void*)(__ARRAY_DOUBLE_ONAR[0]));
+}
+}
+free_mem_lock( (mem_lock*)((ptrszint*)__ARRAY_DOUBLE_ONAR)[8] );
+if (__ARRAY_DOUBLE_ONKC[2]&1){
+if (__ARRAY_DOUBLE_ONKC[2]&4){
+cmem_dynamic_free((uint8*)(__ARRAY_DOUBLE_ONKC[0]));
+}else{
+free((void*)(__ARRAY_DOUBLE_ONKC[0]));
+}
+}
+free_mem_lock( (mem_lock*)((ptrszint*)__ARRAY_DOUBLE_ONKC)[8] );
